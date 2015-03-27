@@ -6,6 +6,31 @@ html {
   box-sizing: inherit;
 }
 
+img{
+    width: 100%;
+    display: block;
+  }
+
 .masthead {
-  background-image: url("../images/logo.svg");
+  background-image: url("../images/logo.svg"), url("../images/masthead-bg.png");
+  background-size: 75px auto, 200px auto;
+  padding-top: 6em;
+  background-repeat: no-repeat, repeat;
+  background-position: center 10px, left top;
+  text-align: center;
 }
+
+  .box {
+    background-color: #3c3b34;
+    padding: 1em;
+  }
+
+ .btn {
+   display: inline-block;
+   padding: 0.5em 0.75em;
+   text-decoration: none;
+   border-radius: 10px;
+   color: #fff;
+   background-color: #a8ae98;
+   background-image: linear-gradient(to bottom, #a8ae98, #5b5e52)
+ }
